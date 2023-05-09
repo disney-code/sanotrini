@@ -15,3 +15,5 @@ print("the summation of is ", c)
 print(f"the product of {a} * {b} is",product(a,b))
 temp1=division(a,b)
 print(f"{a}/{b} is ", temp1)
+
+//add 
