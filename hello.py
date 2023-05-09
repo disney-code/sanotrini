@@ -1,9 +1,12 @@
 print("hello charlene")
 
-def funct(a,b):
+def summation(a,b):
     return a+b
 
+def product(a,b):
+    return a*b
 a=int(input("enter a number: "))
 b=int(input("second nnumber: "))
-c=funct(a,b)
-print(f"the summation of is ", c)
+c=summation(a,b)
+print("the summation of is ", c)
+print(f"the product of {a} * {b} is",product(a,b))
